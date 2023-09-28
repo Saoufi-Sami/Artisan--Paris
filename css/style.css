@@ -45,10 +45,14 @@ body {
 	letter-spacing: 0.5px;
 }
 
-
+.logo { /* ajout de ma part ici vfaudra le replacer prochaine etape   */  
+    width: 450px;
+    float: left;
+    margin-right: 20px;
+}
 
 a.page-scroll {  /* ajout de ma part */
-    color: black!important; 
+    color: gray!important; 
 }
 
 
@@ -395,7 +399,7 @@ ul, ol, li {
 /*  Intro */
 
 .intro3 {
-	background: url(../images/bg/3.jpg) no-repeat center;
+	 background: url("../images/chocolate-pancake-with-chocolate-frosting-blueberr-2021-08-27-08-22-44-utc.jpg") no-repeat center;
 	padding: 270px 0 150px;
 	background-size: cover;
 }
