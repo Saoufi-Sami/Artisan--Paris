@@ -54,7 +54,8 @@ body {
 
 
 a.page-scroll {  /* ajout de ma part */
-    color:white!important; 
+    color:white
+    !important; 
 }
 
 
@@ -219,11 +220,11 @@ ul, ol, li {
 	font-family: 'Roboto', sans-serif;
 	border-width: 0;
 	border-radius: 0;
-	background: transparent;
+	background: #000!important; /*j'ai mis important pour forcez la barr de nav a restez en noir lorsque je scroll sur la page  */
 }
 
 .navbar-inverse {
-	transition: .4s;
+	transition: .15s;
 }
 
 .navbar {
@@ -237,12 +238,12 @@ ul, ol, li {
 	font-size: 28px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #fff;
+	color: gray;
 	letter-spacing: 5px;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #fff;
+	color: black;
 	background-color: transparent;
 }
 
